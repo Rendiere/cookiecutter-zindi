@@ -21,6 +21,9 @@ dependencies:
       - keras
       - lightgbm
       - xgboost
+      - catboost
+      - mlxtend
+      - eli5
       - missingno
       - nbdime
       - plotly
