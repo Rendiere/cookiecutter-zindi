@@ -12,19 +12,17 @@ dependencies:
   - pandas
   - pandas-profiling
   - path.py
-  - python=3.6
+  - python=3.7
   - scikit-learn
   - seaborn
   - statsmodels
   - pip:
       - black
-      - h2o
-      - kaggle
       - keras
       - lightgbm
+      - xgboost
       - missingno
       - nbdime
       - plotly
       - pylint
-      - pyspark
       - tensorflow

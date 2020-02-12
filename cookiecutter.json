@@ -1,8 +1,8 @@
 {
-	"full_name": "ANDRIANASOLO Fanilo",
-	"email": "andfanilo@gmail.com",
-	"project_name": "Kaggle project Boilerplate",
+	"full_name": "Renier Botha",
+	"email": "r.botha91@gmail.com",
+	"project_name": "Zindi competition template",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "Python Boilerplate contains all the boilerplate you need to participate in a Kaggle competition",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to participate in a Zindi competition",
     "version": "0.1.0"
 }

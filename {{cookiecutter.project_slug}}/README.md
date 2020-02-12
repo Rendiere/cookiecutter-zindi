@@ -6,14 +6,6 @@
 
 - [Anaconda](https://www.anaconda.com/download/) >=5.x
 
-## API credentials
-
-To use the Kaggle API, sign up for a Kaggle account at https://www.kaggle.com. Then go to the 'Account' tab of your user profile (`https://www.kaggle.com/<username>/account`) and select 'Create API Token'. This will trigger the download of `kaggle.json`, a file containing your API credentials. Place this file in the location `~/.kaggle/kaggle.json` (on Windows in the location `C:\Users\<Windows-username>\.kaggle\kaggle.json`).
-
-For your security, ensure that other users of your computer do not have read access to your credentials. On Unix-based systems you can do this with the following command:
-
-`chmod 600 ~/.kaggle/kaggle.json`
-
 # Installation guide
 
 ## Set up conda environment
@@ -136,9 +128,8 @@ install of make is cumbersome on those._
     ├── tasks.py           <- Invoke with commands like `notebook`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   ├── modelling      <- Datasets used directly for modelling.
+    │   ├── processed      <- The interim, processed data sets that get combined for modelling.
     │   └── raw            <- The original, immutable data dump.
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
